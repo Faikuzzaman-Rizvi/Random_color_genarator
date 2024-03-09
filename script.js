@@ -1,6 +1,6 @@
 console.log('DOM')
 
-let boxes = document.querySelector(".container").children
+let boxes = document.querySelector(".container").children;
 
 
 
@@ -11,6 +11,6 @@ function getRandomcolor(){
   return  `rgb(${val1}, ${val2}, ${val3})`
 }
 Array.from(boxes).forEach(e=>{
-  e.style.backgroundColor = getRandomcolor()
-  e.style.color = getRandomcolor()
-})
+  e.style.backgroundColor = getRandomcolor();
+  e.style.color = getRandomcolor();
+});
